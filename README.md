@@ -31,36 +31,47 @@ my-nav/
 
 也可以绑定自己的域名，操作在 Pages 设置里一键完成。
 
-## 所有外链（方便你直接复制修改）
+## 一键部署到 Cloudflare Pages（推荐）
 
-```markdown
+1. 把本仓库 Fork 到你自己的 GitHub 账号  
+2. 登录 https://dash.cloudflare.com  
+3. Workers & Pages → Pages → Create a project → Connect to Git  
+4. 选择你刚 Fork 的仓库  
+5. Framework preset 选 **None**，Build command 和 Output directory 都留空  
+6. 点击 Deploy → 完成！几秒钟就有一个 xxx.pages.dev 的免费域名  
+
+也可以绑定自己的域名，操作在 Pages 设置里一键完成。
+
+## 所有外链（可直接复制修改）
+
 ### 开发工具
-- GitHub      → https://github.com
-- GitLab      → https://gitlab.com
-- Vercel      → https://vercel.com
-- Cloudflare  → https://cloudflare.com
-- Excalidraw  → https://excalidraw.com
-- Carbon      → https://carbon.now.sh
+- [GitHub](https://github.com)
+- [GitLab](https://gitlab.com)
+- [Vercel](https://vercel.com)
+- [Cloudflare](https://cloudflare.com)
+- [Excalidraw](https://excalidraw.com)
+- [Carbon](https://carbon.now.sh)
 
 ### 常用网站
-- 哔哩哔哩    → https://bilibili.com
-- YouTube     → https://youtube.com
-- Twitter / X → https://twitter.com
-- 知乎        → https://zhihu.com
-- 掘金        → https://juejin.cn
-- Docs.rs     → https://docs.rs
+- [哔哩哔哩](https://bilibili.com)
+- [YouTube](https://youtube.com)
+- [Twitter / X](https://twitter.com)
+- [知乎](https://zhihu.com)
+- [掘金](https://juejin.cn)
+- [Docs.rs](https://docs.rs)
 
-### 福利类（请遵守当地法律法规）
-- 男同网         → https://91nt.com/
-- h动漫          → https://18hdm.com/
-- 小蓝视频网      → https://xlgvw.com/
-- 黑料吃瓜网      → https://hlcgw.com/
-- 91porna        → https://91porna.com/
-- 好色TV         → https://hstvx.com/
-- 海角社区        → https://hjvideo.com/
-- swag           → https://swagc.com/
-- 91视频         → https://91spx.com
-- 国产av网       → https://gcav1.com/
+### 福利类（请遵守当地法律法规，使用前请确认您已年满18岁）
+- [男同网](https://91nt.com/)
+- [h动漫](https://18hdm.com/)
+- [小蓝视频网](https://xlgvw.com/)
+- [黑料吃瓜网](https://hlcgw.com/)
+- [91porna](https://91porna.com/)
+- [好色TV](https://hstvx.com/)
+- [海角社区](https://hjvideo.com/)
+- [swag](https://swagc.com/)
+- [91视频](https://91spx.com)
+- [国产av网](https://gcav1.com/)
+
 自定义建议
 
 改标题：直接改 <title> 和 <h1> 里的「阿巴阿巴的导航」
