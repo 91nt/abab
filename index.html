@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿巴阿巴的导航站</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/assets/favicon.ico">
+  <!-- 可选：图标库 -->
+  <script src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- 头部 -->
+    <header>
+      <h1>阿巴阿巴的导航</h1>
+      <p>常用工具 & 博客 & 福利类</p>
+      <button id="theme-toggle" aria-label="切换主题">
+        <i class="ti ti-moon"></i>
+      </button>
+    </header>
+
+    <!-- 搜索栏 -->
+    <div class="search-box">
+      <input type="text" id="search" placeholder="搜索站点…（回车跳转到 Google）" autocomplete="off">
+    </div>
+
+    <!-- 导航分类 -->
+    <div class="categories">
+      <!-- 开发工具 -->
+      <section class="category">
+        <h2><i class="ti ti-code"></i> 开发工具</h2>
+        <div class="links">
+          <a href="https://github.com" target="_blank"><i class="ti ti-brand-github"></i> GitHub</a>
+          <a href="https://gitlab.com" target="_blank"><i class="ti ti-brand-gitlab"></i> GitLab</a>
+          <a href="https://vercel.com" target="_blank"><i class="ti ti-rocket"></i> Vercel</a>
+          <a href="https://cloudflare.com" target="_blank"><i class="ti ti-cloud"></i> Cloudflare</a>
+          <a href="https://excalidraw.com" target="_blank"><i class="ti ti-pencil"></i> Excalidraw</a>
+          <a href="https://carbon.now.sh" target="_blank"><i class="ti ti-photo"></i> Carbon</a>
+        </div>
+      </section>
+
+      <!-- 常用网站 -->
+      <section class="category">
+        <h2><i class="ti ti-world"></i> 常用网站</h2>
+        <div class="links">
+          <a href="https://bilibili.com" target="_blank"><i class="ti ti-brand-bilibili"></i> 哔哩哔哩</a>
+          <a href="https://youtube.com" target="_blank"><i class="ti ti-brand-youtube"></i> YouTube</a>
+          <a href="https://twitter.com" target="_blank"><i class="ti ti-brand-twitter"></i> Twitter / X</a>
+          <a href="https://zhihu.com" target="_blank"><i class="ti ti-message-circle"></i> 知乎</a>
+          <a href="https://juejin.cn" target="_blank"><i class="ti ti-bulb"></i> 掘金</a>
+          <a href="https://docs.rs" target="_blank"><i class="ti ti-book"></i> Docs.rs</a>
+        </div>
+      </section>
+
+      <!-- 福利类 -->
+      <section class="category">
+        <h2><i class="ti ti-users"></i> 福利类</h2>
+        <div class="links">
+          <a href="https://91nt.com/" target="_blank">男同网</a>
+          <a href="https://18hdm.com/" target="_blank">h动漫</a>
+          <a href="https://xlgvw.com/" target="_blank">小蓝视频网</a>
+          <a href="https://hlcgw.com/" target="_blank">黑料吃瓜网</a>
+          <a href="https://91porna.com/" target="_blank">91porna</a>
+          <a href="https://hstvx.com/" target="_blank">好色TV</a>
+          <a href="https://hjvideo.com/" target="_blank">海角社区</a>
+          <a href="https://swagc.com/" target="_blank">swag</a>
+          <a href="https://91spx.com" target="_blank">91视频</a>
+          <a href="https://gcav1.com/" target="_blank">国产av网</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+      <p>© 2025 阿巴阿巴 | 托管于 <a href="https://pages.cloudflare.com" target="_blank">Cloudflare Pages</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
